@@ -1,0 +1,97 @@
+.promo {
+    padding-top: 20px;
+    padding-bottom: 95px;
+    background: url(../../img/main.jpg) center center/cover no-repeat;
+
+    &__choise {
+
+        display: grid;
+        justify-content: end;
+        padding-top: 91px;
+        grid-row-gap: 60px;
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 42px;
+        color: #FFFFFF;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    &__text-text {
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+
+    &__icons-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(110px, 136px));
+        justify-content: end;
+    }
+
+    &__text {
+        span {
+            display: block;
+        }
+
+        display: grid;
+        justify-items: end;
+    }
+
+    &__icons {
+        display: grid;
+        grid-row-gap: 20px;
+    }
+
+    &__icon {
+        justify-self: center;
+    }
+
+    &__icons__text {
+        display: grid;
+        justify-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+    &__button {
+        width: 303px;
+        height: 54px;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    &__link-wrapper {
+
+        justify-self: end;
+        text-align: end;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    &__link {
+        color: #FFFFFF;
+        text-decoration: underline;
+    }
+
+    &__content_bottom {
+        justify-self: end;
+    }
+
+
+
+}
+
+.button_big {
+    @extend .promo__button;
+    margin-top: 7px;
+}

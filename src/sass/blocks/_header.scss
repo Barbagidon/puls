@@ -1,0 +1,58 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    &__logo{
+        max-width: 250px;
+    }
+
+    &__official {
+        display: grid;
+        justify-items: center;
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        justify-self: center;
+
+        &_high {
+            display: block;
+            font-size: 12px;
+        }
+
+        &_bottom {
+            display: block;
+            font-size: 18px;
+        }
+
+
+    }
+
+    &__phone {
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+
+    }
+
+    &__contacts {
+        display: grid;
+        justify-content: end;
+
+
+
+    }
+
+}
+
+.button {
+    display: block;
+    justify-self: end;
+    width: 153px;
+    height: 32px;
+    background: #C70101;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
